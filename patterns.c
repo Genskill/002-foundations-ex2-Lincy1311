@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdlib.h>
 #include<cs50.h>
 void main()
 {  
@@ -25,7 +26,7 @@ void pattern1()
 }
 
 void pattern2()
-{   int y,i,j,k;
+{   int i,j,k;
     int y = get_int("Enter number of rows ");
     int x=1;
     for(i=y;i>0;i--)
