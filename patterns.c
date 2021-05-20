@@ -7,6 +7,7 @@ void main()
    if(p==1)
    {
       int n = get_int("Enter number of rows ");
+      printf("\n");
       for(i=n;i>0;i--)
       {  for(j=0;j<i;j++)
          {  
