@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include<cs50.h>
 void main()
-{  int i,j
+{  int i,j,k;
    int p = get_int("Enter type of pattern (1 or 2) ");
    if(p==1)
    {
