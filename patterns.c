@@ -13,22 +13,26 @@ void main()
           printf("#");
          }
       printf("\n");
-    }    
+      } 
+   }  
     else
     { 
        int y = get_int("Enter number of rows ");
        int x=1;
        for(i=y;i>0;i--)
        { 
-         for(j=0;j<i-1;j++)
-         {  
-            printf(" ");
-       }
+          for(j=0;j<i-1;j++)
+           {  
+              printf(" ");
+           }
        for(k=0;k<x;k++)
        {  
            printf("#");
        }
        printf("\n");
        x++;
-    }
-}   
+       }
+    }   
+} 
+ 
+ 
